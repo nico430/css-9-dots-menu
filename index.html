@@ -9,8 +9,16 @@
 <body>
   
   <div class="navigation">
-    
+
   </div>
+
+  <script>
+    let navigation = document.querySelector('.navigation');
+    //https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector
+    navigation.onClick = function(){
+      navigation.classList.toggle('active') //https://developer.mozilla.org/en-US/docs/Web/API/Element/classList
+    }
+  </script>
 
 </body>
 </html>
