@@ -13,3 +13,13 @@ body
   min-height: 100vh;
   background-color: #10131C;
 }
+
+.navigation
+{
+  position: relative; /*https://developer.mozilla.org/en-US/docs/Web/CSS/position*/
+  width: 70px;
+  height: 70px;
+  background-color: #211532;
+  border-radius: 10px;
+  cursor: pointer;
+}
