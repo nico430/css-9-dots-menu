@@ -1,0 +1,15 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /*  https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing */
+}
+
+body
+{
+  display: flex;  /*https://developer.mozilla.org/en-US/docs/Web/CSS/display*/
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #10131C;
+}
